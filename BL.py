@@ -85,7 +85,7 @@ for i in range(n-1,0,-1):
     x=L/n*i
     x_l.append(x)
     dx=L/n
-    temp=dx*q*muo/k/kro(swx(x))/A
+    temp=dx*q/(k*kro(swx(x))/muo+k*krw(swx(x))/muw)/A
     p.append(temp+p[-1])
 
 #plot
