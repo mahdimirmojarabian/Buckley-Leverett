@@ -5,4 +5,4 @@ This script is based on  http://www.simulkade.com/posts/Matlab%20and%20Julia%20-
 Features:
 1. Get saturation distribution
 2. Get pressure distribution
-3. Plots of the relative peremability curve and $f_w$ vs $s_w$
+3. Plots of the main variables
